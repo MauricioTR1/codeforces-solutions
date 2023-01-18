@@ -1,0 +1,22 @@
+package com.mycompany.main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        ArrayList<String> lista = new ArrayList<>();
+        int n = entrada.nextInt();
+        for(int i = 0; i<n; i++){
+            String s = entrada.next();
+            lista.add(s);
+        }
+        for(int i = 0; i<n; i++) {
+            if(lista.get(i).length()>10) {
+                System.out.println(lista.get(i).charAt(0)+""+(lista.get(i).length()-2)+""+lista.get(i).charAt(lista.get(i).length()-1));
+            } else System.out.println(lista.get(i));
+        }
+    }
+}
