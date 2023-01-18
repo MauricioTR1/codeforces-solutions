@@ -1,2 +1,2 @@
 # codeforces-solutions
-my solutions to some codeforces problems
+les presento mis soluciones para algunos problemas de codeforces, quizá no sean las mejores pero funcionan, saludos =)
